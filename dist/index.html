@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Over Image Block</title>
+	</head>
+	<body>
+		
+		<article class="slds-card">
+  <div class="slds-card__header slds-grid">
+    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+    
+      <div class="slds-media__body">
+        <h2>
+ 
+            <span class="slds-text-heading_small">Text Over Image Block</span>
+          
+        </h2>
+      </div>
+    </header>
+  </div>
+  <div class="slds-card__body slds-card__body_inner">
+  <div id="workspace">
+			<div style="padding-bottom:10px" class="slds-form-element">
+				<label class="slds-form-element__label" for="text-input-id-0">Image URL</label>
+				<div class="slds-form-element__control">
+					<input type="text" id="text-input-id-0" class="slds-input" placeholder="http://image.s4.exct.net/lib/fe8f15737c62077a76/m/1/a9836fc9-54dc-434a-a09f-2b2ca88ce146.png" />
+				</div>
+			</div>
+			<div style="padding-bottom:10px" class="slds-form-element">
+				<label class="slds-form-element__label" for="text-input-id-1">Text</label>
+				<div class="slds-form-element__control">
+					<input type="text" id="text-input-id-1" class="slds-input" placeholder="Text Over Image" />
+				</div>
+			</div>
+			
+			<div style="padding-bottom:10px" class="slds-form-element">
+				<label class="slds-form-element__label" for="slider-id-02">
+					<span class="slds-slider-label">
+						<span class="slds-slider-label__label">Image Height</span>
+					</span>
+				</label>
+				<div class="slds-form-element__control">
+					<div class="slds-slider">
+						<input type="range" id="slider-id-02" class="slds-slider__range" value="200" min="100" max="800" />
+						<span class="slds-slider__value" id="slider-id-02-val" aria-hidden="true">200</span>
+					</div>
+				</div>
+			</div>
+			<div style="padding-bottom:10px" class="slds-form-element">
+				<label class="slds-form-element__label" for="slider-id-03">
+					<span class="slds-slider-label">
+						<span class="slds-slider-label__label">Text Color</span>
+					</span>
+				</label>
+				<div class="slds-form-element__control">
+					
+						
+				  <div class="col-md-4">
+                     <div id="standalone-container">
+
+			     <input class="jscolor slds-input" id="drop-id-0" name="Color" value="000000">
+                     </div>
+                  </div>
+						
+					
+				</div>
+			</div>
+			<div style="padding-bottom:10px" class="slds-form-element">
+				<label class="slds-form-element__label" for="text-input-id-2">Link Wrap</label>
+				<div class="slds-form-element__control">
+					<input type="text" id="text-input-id-2" class="slds-input" placeholder="Optional url for Link wrap" />
+				</div>
+			</div>
+		</div>
+  </div>
+  <footer class="slds-card__footer">Salesforce Marketing Cloud block SDK</footer>
+</article>
+		
+		<script src="./main.js"></script>
+		<script src="jscolor.js"></script>
+	</body>
+</html>
